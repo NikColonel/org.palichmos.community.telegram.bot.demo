@@ -6,6 +6,8 @@ Bundle-Version: 1.0.0.qualifier
 Bundle-Vendor: Palichmos Team
 Bundle-RequiredExecutionEnvironment: JavaSE-1.8
 Require-Bundle: org.adempiere.plugin.utils;bundle-version="3.1.0",
- org.palichmos.community.telegram;bundle-version="1.0.0"
+ org.palichmos.community.telegram;bundle-version="1.0.0",
+ org.adempiere.base
 Bundle-ActivationPolicy: lazy
 Bundle-Activator: org.idempiere.activator.TelegramBotActivator
+Service-Component: OSGI-INF/org.palichmos.bot.demo.botfactory.xml
