@@ -1,7 +1,7 @@
 package org.palichmos.demo.bot.handler;
 
 import java.sql.SQLException;
-import org.idempiere.telegram.model.Session;
+import org.palichmos.telegram.model.Session;
 
 public class StartHandler extends CustomBotHandler
 {
@@ -26,6 +26,7 @@ public class StartHandler extends CustomBotHandler
 		sendMessage(session, "Hello world", null);
 		
 		session.getUser().setCurrentState(STATE_001);
+		session.getUser().addValue("Answer", 42);
 		session.getUser().saveEx();
 	}
 

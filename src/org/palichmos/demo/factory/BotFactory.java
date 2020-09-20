@@ -2,8 +2,8 @@ package org.palichmos.demo.factory;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import org.idempiere.telegram.adinterface.ITelegramBotFactory;
 import org.palichmos.demo.bot.PalichmosDemoBot;
+import org.palichmos.telegram.adinterface.ITelegramBotFactory;
 import org.telegram.telegrambots.generics.LongPollingBot;
 
 public class BotFactory implements ITelegramBotFactory

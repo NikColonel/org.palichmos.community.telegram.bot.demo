@@ -3,6 +3,6 @@
    <implementation class="org.palichmos.demo.factory.BotFactory"/>
    <property name="service.ranking" type="Integer" value="1"/>
    <service>
-      <provide interface="org.idempiere.telegram.adinterface.ITelegramBotFactory"/>
+      <provide interface="org.palichmos.telegram.adinterface.ITelegramBotFactory"/>
    </service>
 </scr:component>

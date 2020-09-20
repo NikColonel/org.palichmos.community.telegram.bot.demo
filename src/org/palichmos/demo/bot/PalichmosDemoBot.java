@@ -1,12 +1,12 @@
 package org.palichmos.demo.bot;
 
-import org.idempiere.telegram.model.AbstractTelegramBot;
 import org.palichmos.demo.bot.handler.StartHandler;
+import org.palichmos.telegram.model.AbstractTelegramBot;
 
 public class PalichmosDemoBot extends AbstractTelegramBot
 {
 	private static PalichmosDemoBot instance = null;
-	private static int pm_telegram_bot_id = 9999;
+	private static int pm_telegram_bot_id = 1000000;
 	
 	private PalichmosDemoBot(int pm_telegram_bot_id, int maxThread)
 	{

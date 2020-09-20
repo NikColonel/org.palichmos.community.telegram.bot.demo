@@ -1,9 +1,9 @@
 package org.palichmos.demo.bot.handler;
 
 import java.util.ArrayList;
-import org.idempiere.telegram.model.AbstractBotHandler;
 import org.palichmos.demo.bot.IPalichmosdemoBotKeyboard;
 import org.palichmos.demo.bot.IPalichmosdemoBotState;
+import org.palichmos.telegram.model.AbstractBotHandler;
 import org.telegram.telegrambots.api.objects.replykeyboard.ReplyKeyboard;
 import org.telegram.telegrambots.api.objects.replykeyboard.ReplyKeyboardMarkup;
 import org.telegram.telegrambots.api.objects.replykeyboard.buttons.KeyboardButton;
